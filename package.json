@@ -1,0 +1,23 @@
+{
+  "name": "wordpress-theme-boilderplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "grunt build",
+    "start": "grunt"
+  },
+  "author": "Rokas Milasevicius <rokas@milasevicius.com> (http://milasevicius.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015-script": "^1.0.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-php": "^1.5.1",
+    "grunt-sass": "^1.2.0",
+    "grunt-sync": "^0.5.2",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}
