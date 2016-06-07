@@ -39,9 +39,14 @@ module.exports = function(grunt) {
         dev: {
           files: [
             {
-              cwd: 'wp-content/themes/<%= themeName %>/assets/', 
-              src: ['images/**', 'fonts/**'], 
-              dest: 'wp-content/themes/<%= themeName %>/public/'
+              cwd: 'wp-content/themes/<%= themeName %>/assets/images/', 
+              src: ['**'], 
+              dest: 'wp-content/themes/<%= themeName %>/public/images/'
+            },
+            {
+              cwd: 'wp-content/themes/<%= themeName %>/assets/fonts/', 
+              src: ['**'], 
+              dest: 'wp-content/themes/<%= themeName %>/public/fonts/'
             }
           ],
           failOnError: true,

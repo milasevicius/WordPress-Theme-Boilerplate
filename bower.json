@@ -1,0 +1,20 @@
+{
+  "name": "wordpress-theme-boilderplate",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Rokas Milasevicius <rokas@milasevicius.com> (http://milasevicius.com)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/milasevicius/WordPress-Theme-Boilerplate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^4.1.1"
+  }
+}

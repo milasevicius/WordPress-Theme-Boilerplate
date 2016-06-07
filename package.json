@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "grunt build",
+    "build": "bower install && grunt build",
     "start": "grunt"
   },
   "author": "Rokas Milasevicius <rokas@milasevicius.com> (http://milasevicius.com)",
