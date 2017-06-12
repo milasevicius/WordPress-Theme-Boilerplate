@@ -11,7 +11,7 @@ To install WordPress Theme Boilerplate run these commands
 ## Features
 
 ### WordPress
-- [WordPress 4.5.3](https://wordpress.org/)
+- [WordPress 4.8](https://wordpress.org/)
 
 ### Build tools
 - [Grunt](https://www.npmjs.com/package/grunt)
